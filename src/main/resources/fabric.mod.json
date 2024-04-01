@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "multifishing",
+	"version": "${version}",
+	"name": "Multishot Fishing",
+	"description": "A serverside mod that adds multishot functionality to fishing rods",
+	"authors": [
+		"Ueaj"
+	],
+	"contact": {
+		"sources": "https://github.com/Devan-Kerman/ServerMultishotFishing",
+		"issues": "https://github.com/Devan-Kerman/ServerMultishotFishing/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/multifishing/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"dev.ueaj.multifishing.Multifishing"
+		]
+	},
+	"mixins": [
+		"multifishing.mixins.json"
+	],
+	"depends": {
+		"java": ">=17"
+	}
+}
